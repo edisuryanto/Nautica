@@ -860,8 +860,8 @@ function parseNajortHeader(buffer) {
 //   console.log(`Remaining bytes: ${arrayBufferToHex(buffer.slice(17))}`);
 
 //   // ===== KEY GENERATION =====
-//   const userId = "3b670322-6ac1-41ec-9ff3-714245d41bf7";
-//   const uuidConst = "c48619fe-8f02-49e0-b9e9-edf763e17e21";
+//   const userId = "11418ec5-771a-4905-9877-e7c1e702adc2";
+//   const uuidConst = "9f026edf-7f0a-4e44-8735-9cd85c863f47";
 
 //   // Step 1: Generate AES key
 //   const key = createHash("md5")
@@ -870,7 +870,7 @@ function parseNajortHeader(buffer) {
 //   console.log(`KEY: ${key}`);
 
 //   // Step 2: Generate Timestamp (current Unix time)
-//   const timestamp = Math.floor(date.getTime() / 1000); // current timestamp in seconds
+//   const timestamp = Math.floor(date.getTime() / 50000); // current timestamp in seconds
 
 //   // Step 3: Generate IV from Timestamp
 //   const x = Buffer.alloc(8);
